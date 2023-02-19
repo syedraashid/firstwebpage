@@ -1,0 +1,62 @@
+h1{
+    font-size: 100px;
+    font-weight: 200;
+    font-style: oblique;
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px;
+    border: 9px;
+    border-style: solid;
+}
+*{margin: 0px;
+    box-sizing: border-box;
+
+}
+li{
+    display: inline;
+}
+ul{
+    border-color: rgb(3, 3, 3);
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+li a{
+    color: rgb(112, 32, 32);
+    text-decoration: none;
+    font-size: 45px;
+}
+li a:hover{
+    padding: 2px;
+    background-color: rgb(11, 11, 12);
+    border-radius: 2px;
+    color: white;
+}
+
+#p1{
+    font-size: 60px;
+    font-style: italic;
+    font-family: monospace;
+    text-align: center;
+    color: rgb(17, 10, 243);
+}
+body{
+    background-image: url(drugs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p4{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(15, 16, 14);
+    text-decoration-line: underline;
+     text-decoration-color: rgb(255, 0, 255);
+}
+#p2{
+    font-size: 60px;
+    font-style: oblique;
+    font-weight: 200;
+    text-align: center;
+    color: rgb(8, 8, 10);
+}

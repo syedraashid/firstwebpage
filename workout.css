@@ -1,0 +1,74 @@
+h1{
+    color: black;
+    text-align: center;
+    font-size: 70px;
+
+}
+*{margin: 0px;
+    box-sizing: border-box;
+
+}
+li{
+    display: inline;
+}
+ul{
+    border-color: rgb(3, 3, 3);
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+li a{
+    color: rgb(112, 32, 32);
+    text-decoration: none;
+    font-size: 45px;
+}
+li a:hover{
+    padding: 2px;
+    background-color: rgb(11, 11, 12);
+    border-radius: 2px;
+    color: white;
+}
+
+li{
+display: block;
+}
+ul{
+    border-color: rgb(188, 109, 13);
+    text-align: center;
+    font-size: 60px;
+    
+}
+li a{
+    color: rgb(18, 14, 14);
+    text-decoration: none;
+    font-size: 45px;
+}
+li a:hover{
+    padding: 2px;
+    background-color: rgb(11, 11, 10);
+    border-radius: 2px;
+    color: rgb(166, 59, 20);
+}
+
+html{
+    background-image: url("dum.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#qot{
+    color: aquamarine;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+    font-style: oblique;
+    padding-top: 100px;
+}
+#beg{
+    color: rgb(33, 186, 25);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    padding-top: 30px;
+}
+
